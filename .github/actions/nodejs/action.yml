@@ -1,0 +1,16 @@
+name: nodejs
+description: 'installs, tests, and packages a nodejs project'
+
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-node@v3
+      with:
+        node-version-file: '.nvmrc'
+        cache: 'npm'
+    - run: npm install
+      shell: bash
+    - run: npm test
+      shell: bash
+    - run: npm run package
+      shell: bash
