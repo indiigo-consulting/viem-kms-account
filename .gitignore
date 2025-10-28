@@ -32,3 +32,23 @@ _site
 public
 resources
 .hugo_build.lock
+
+# python
+  __pycache__/
+  *.py[cod]
+  *$py.class
+  *.so
+  *.egg
+  *.egg-info/
+  dist/
+  build/
+  *.dist-info/
+  .pytest_cache/
+  .coverage
+  .coverage.*
+  htmlcov/
+  .tox/
+  .nox/
+  .hypothesis/
+  .pytype/
+  *.log
