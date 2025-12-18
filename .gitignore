@@ -52,3 +52,6 @@ htmlcov/
 .hypothesis/
 .pytype/
 *.log
+
+# claude
+settings.local.json
