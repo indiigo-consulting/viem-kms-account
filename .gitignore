@@ -55,3 +55,9 @@ htmlcov/
 
 # claude
 settings.local.json
+
+# next.js
+.next/
+out/
+.env.local
+.env*.local
