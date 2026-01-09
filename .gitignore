@@ -55,6 +55,7 @@ htmlcov/
 
 # claude
 settings.local.json
+.mcp.json
 
 # next.js
 .next/
