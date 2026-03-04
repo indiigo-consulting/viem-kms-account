@@ -64,4 +64,4 @@ out/
 .env*.local
 
 # google-drive sharing
-google-drive/
+google-drive
