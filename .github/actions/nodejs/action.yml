@@ -4,7 +4,7 @@ description: 'installs, tests, and packages a nodejs project'
 runs:
   using: "composite"
   steps:
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@v7
       with:
         node-version-file: '.nvmrc'
         cache: 'npm'
