@@ -34,6 +34,7 @@ resources
 .hugo_build.lock
 
 # python
+.venv/
 __pycache__/
 *.py[cod]
 *$py.class
